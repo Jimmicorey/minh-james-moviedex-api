@@ -7,6 +7,9 @@ const morgan = require('morgan');
 const helmet = require('helmet');
 const cors = require('cors');
 
+
+//console.log(process.env.API_TOKEN);
+
 //IMPORT JSON MOVIE DATABASE
 const MOVIEDEX = require('./movies-data-small.json');
 
